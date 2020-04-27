@@ -46,3 +46,15 @@ h3{
     justify-content: left;
     line-height: 50px;
 }
+
+@media (max-width: 1000px){
+    .titre{
+        width: 150px;
+    }
+    .menu{
+        width: 150px;
+    }
+    body{
+        background: white;
+    }
+}
