@@ -1,0 +1,60 @@
+body{
+    background-image:url('220022020.png');
+    background-repeat: no-repeat;
+    width: 100%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.titre{
+    display: flex;
+    background-color: blue;
+    width: 300px;
+    top: 0px;
+    bottom: 0px;
+    /* box-shadow: 2px 2px 2px silver; */
+    justify-content: center;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    background-color: blue;
+    width: 300px;
+    top: 0px;
+    bottom: 0px;
+    /* box-shadow: 2px 2px 2px silver; */
+}
+
+h2{
+    display: flex;
+    color: #FF4933;
+    font-size: 30px;
+    top: 0px;
+    text-decoration: underline;
+    line-height: 50px;
+}
+
+h3{
+    display: flex;
+    color: #FF4933;
+    font-size: 30px;
+    justify-content: left;
+    line-height: 50px;
+}
+
+@media (max-width: 1000px){
+    .titre{
+        width: 150px;
+    }
+    .menu{
+        width: 150px;
+    }
+    body{
+        background: white;
+    }
+}
